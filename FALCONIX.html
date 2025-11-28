@@ -20,7 +20,7 @@
     function showWeather() {
 const city = document.getElementById("cityInput").value;
 const weather = document.getElementById("forecast");
-
+weather.innerHTML=" ";
 if(weatherData[city]) {
  const data = weatherData[city];
  const card = document.createElement("div");
@@ -39,4 +39,5 @@ if(weatherData[city]) {
 </body>
 
 </html>
+
 
