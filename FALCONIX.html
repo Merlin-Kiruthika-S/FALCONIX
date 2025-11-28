@@ -24,7 +24,12 @@ const weather = document.getElementById("forecast");
 if(weatherData[city]) {
  const data = weatherData[city];
  const card = document.createElement("div");
- card.innerHTML = "<h2>"+city+"</h2>"+"<p>Temperature:"+data.temp+</p>";
+ card.innerHTML =  `
+          <h2>${city}</h2>
+          <p>Temperature: ${data.temp}</p>
+          <p>Condition: ${data.condition}</p>
+        `;	
+
  weather.appendChild(card);
  } else {
         weather.innerHTML = "sorry,not found";
@@ -34,3 +39,4 @@ if(weatherData[city]) {
 </body>
 
 </html>
+
