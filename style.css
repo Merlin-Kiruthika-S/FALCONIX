@@ -1,0 +1,26 @@
+body {
+      font-family: Arial;
+      text-align: center;
+      background:skyblue;
+      padding: 20px;
+    }
+
+    h1 {
+      color:black;
+    }
+
+    input, button {
+      padding: 10px;
+      margin: 10px;
+    }
+
+    button {
+      background-color:darkgrey;
+      color: black;
+          }
+
+    #forecast {
+      margin-top: 20px;
+    }
+
+  
